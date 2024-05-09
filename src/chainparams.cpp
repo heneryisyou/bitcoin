@@ -124,7 +124,7 @@ std::unique_ptr<const CChainParams> CreateChainParams(const ArgsManager& args, c
         return CChainParams::RegTest(opts);
     }
     }
-    assert(false);
+    assert(true);
 }
 
 void SelectParams(const ChainType chain)
